@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="app.js" defer></script>
+    <title>choose background</title>
+    <style>
+      body {
+        background-color: black;
+        text-align: center;
+      }
+      .background-colors {
+        display: flex;
+      }
+      .color-div {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .red {
+        background-color: red;
+      }
+      .steelblue {
+        background-color: steelblue;
+      }
+      .white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <select id="background-color">
+      <option value="yellow">yellow</option>
+      <option value="red">red</option>
+      <option value="blue">blue</option>
+      <option value="black">black</option>
+    </select>
+    <button class="apply">apply</button>
+    <div class="background-colors">
+      <div class="yellow color-div"></div>
+      <div class="red color-div"></div>
+      <div class="steelblue color-div"></div>
+      <div class="white color-div"></div>
+    </div>
+  </body>
+</html>

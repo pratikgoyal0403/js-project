@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../image-slider/assests/image-4.jpeg"),
+    linear-gradient(to bottom, black, black);
+  background-size: cover;
+}
+.wrapper {
+  width: 80vw;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.header {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  font-size: 26px;
+}
+.heading span {
+  color: orangered;
+}
+.testimonials {
+  border: 3px solid lime;
+  position: relative;
+  width: 40%;
+}
+.testimonial {
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 100%;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.img {
+  margin-top: -30px;
+}
+.profile-image {
+  height: 80px;
+  width: 140px;
+  border-radius: 50%;
+}
+.about {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+}
+.previous {
+  position: absolute;
+  left: -1.5%;
+  top: 45%;
+  width: 20px;
+  height: 30px;
+}
+.next {
+  position: absolute;
+  right: -1.5%;
+  top: 45%;
+  width: 20px;
+  height: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="app.js" defer></script>
+    <title>image-slider-app</title>
+    <style>
+      .wrapper {
+        height: 50vh;
+        width: 50vw;
+        border: 10px solid steelblue;
+        margin: 50px auto;
+      }
+      .next {
+        position: absolute;
+        top: 200px;
+        right: 345px;
+      }
+      .previous {
+        position: absolute;
+        top: 200px;
+        left: 345px;
+      }
+      .image {
+        width: 50vw;
+        height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="assests/image-1.jpeg" alt="car1" class="image" />
+      <button class="next">></button>
+      <button class="previous"><</button>
+    </div>
+  </body>
+</html>
