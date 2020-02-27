@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: #f5f5f5;
+}
+.main {
+  width: 70vw;
+  min-height: 100vh;
+  margin: auto auto;
+  text-align: center;
+}
+.header-items {
+  padding-top: 20px;
+}
+.inputs {
+  margin-top: 20px;
+}
+#input-feild {
+  width: 60%;
+  height: 39px;
+  border: none;
+  padding: 5px;
+  /* margin-right: 0px; */
+  border: 1px solid rgb(34, 216, 155);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.add-btn {
+  background-color: none;
+  color: rgb(34, 216, 155);
+  border: 1px solid rgb(34, 216, 155);
+  padding: 9px;
+  margin-left: -5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.add-btn:hover,
+.clear-btn:hover {
+  background-color: rgb(34, 216, 155);
+  color: black;
+}
+.clear-btn {
+  margin-top: 40px;
+  background-color: none;
+  color: rgb(34, 216, 155);
+  border: 1px solid rgb(34, 216, 155);
+  padding: 10px;
+  border-radius: 5px;
+}
+.todo-items {
+  margin-top: 20px;
+}
+.todo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.todo-text {
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 90px;
+}
+.glyphicon {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px;
+}
+.todo-icons {
+  margin-left: 50px;
+}
+.glyphicon-ok-circle {
+  color: rgb(34, 216, 155);
+}
+.faded {
+  color: rgba(0, 116, 77, 0.521);
+}
+.glyphicon-edit {
+  color: steelblue;
+}
+.glyphicon-remove-circle {
+  color: tomato;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
