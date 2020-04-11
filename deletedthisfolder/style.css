@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  border: 2px solid black;
+  overflow-x: hidden;
+}
+/* .corusel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 550ms linear;
+}
+.corusel-img{
+    width: 100%;
+    height: 100%;
+} */
+.track {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 550ms linear;
+}
+section {
+  min-width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.section1 {
+  background-color: steelblue;
+}
+.section2 {
+  background-color: tomato;
+}
+.section3 {
+  background-color: teal;
+}
+.section4 {
+  background-color: violet;
+}
